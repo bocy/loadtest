@@ -4,16 +4,16 @@
 
 ## 主要是做单接口查询性能的自动化测试与监控
 
-此是基于之前shell+jmeter做的python版本的自动化性能测试
+该项目基于之前shell+jmeter自动化性能测试的python改进版本
 https://testerhome.com/topics/4264
 
 但是有不一样的地方：
 1. 此项目基于python脚本
-2. 此项目每个用例会生成jmeter自带的报告和汇总报告
+2. 此项目每个用例会生成jmeter自带的报告
 3. 此项目能支持docker服务的CPU监控
 
 
-## 行依赖库：
+## 运行环境：
 ```
 python3.6
 pip install jinja2==2.10
